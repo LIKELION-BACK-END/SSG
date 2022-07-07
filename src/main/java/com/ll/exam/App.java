@@ -1,0 +1,8 @@
+package com.ll.exam;
+
+public class App {
+
+    public void run() {
+        System.out.println("-- 명연 SSG --");
+    }
+}
