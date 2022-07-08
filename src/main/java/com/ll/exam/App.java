@@ -45,7 +45,6 @@ public class App {
                     break outer;
             }
         }
-
         sc.close();
     }
 }
