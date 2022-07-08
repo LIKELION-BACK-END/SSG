@@ -1,1 +1,1 @@
-# ssg-java
+# java-ssg
