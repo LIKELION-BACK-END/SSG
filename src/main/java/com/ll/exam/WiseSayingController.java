@@ -12,7 +12,7 @@ public class WiseSayingController {
         wiseSayingRepository = new WiseSayingRepository();
     }
 
-    public void modify(Rq rq) {
+public void modify(Rq rq) {
         // URL에 입력된 id 얻기
         int paramId = rq.getIntParam("id", 0);
 
