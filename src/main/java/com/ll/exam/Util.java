@@ -8,7 +8,6 @@ import java.nio.channels.FileChannel;
 
 public class Util {
     public static void saveToFile(String path, String body) {
-
         try {
             RandomAccessFile stream = new RandomAccessFile(path, "rw");
             FileChannel channel = stream.getChannel();
