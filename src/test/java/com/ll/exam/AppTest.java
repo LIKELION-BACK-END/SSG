@@ -11,11 +11,11 @@ public class AppTest {
     @Test
     void 파일에_내용쓰기() {
         Util.mkdir("test_data");
-        Util.saveToFile("test_data/1.json", "내용");
+        Util.saveToFile("test_data/1.json", "내용\n내용");
 
-        String result = Util.readFormFile("test_data/1.json");
+        String rs = Util.readFromFile("test_data/1.json");
 
-        assertEquals("내용", result);
+        assertEquals("내용\n내용", rs);
     }
 
     @Test
